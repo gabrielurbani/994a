@@ -1,6 +1,6 @@
 let mapImg;
-let clat = -34;
-let clon = -64;
+let clat = -38.4160957;
+let clon = -63.6166725;
 // let lat = 31.2304;
 // let lon = 121.4737;
 let lat = -34.6083;
