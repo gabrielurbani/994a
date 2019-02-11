@@ -1,8 +1,11 @@
 let mapImg;
 let clat = 0;
 let clon = 0;
-let lat = 31.2304;
-let lon = 121.4737;
+// let lat = 31.2304;
+// let lon = 121.4737;
+let lat = -34.6083;
+let lon = -58.3712
+
 let zoom = 1;
 
 function preload(){
