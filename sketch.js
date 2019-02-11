@@ -40,5 +40,5 @@ function setup(){
   let y = mercY(lat) - cy;
 
   fill(255,0,200,200);
-  ellipse(x,y,20,20);
+  ellipse(x,y,10,10);
 };
