@@ -6,10 +6,12 @@ let clon = 0;
 let lat = -34.6083;
 let lon = -58.3712
 
-let zoom = 1;
+let zoom = 3;
+let earthquakes;
 
 function preload(){
-  mapImg = loadImage("https://api.mapbox.com/styles/v1/mapbox/dark-v9/static/0,0,1,0/1024x512?access_token=pk.eyJ1Ijoibm9tYWRlcSIsImEiOiJjanJ6MHBtbXEwamczNDlvYWxqc2UzM2dzIn0.MrP0H6Id5uaXMzajMrwkxg");
+ mapImg = loadImage("https://api.mapbox.com/styles/v1/mapbox/dark-v9/static/0,0,3,0/1024x512?access_token=pk.eyJ1Ijoibm9tYWRlcSIsImEiOiJjanJ6MHBtbXEwamczNDlvYWxqc2UzM2dzIn0.MrP0H6Id5uaXMzajMrwkxg");
+ earthquakes = loadString(
 };
 
 function mercX(lon){
