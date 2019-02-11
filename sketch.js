@@ -10,14 +10,14 @@ function preload(){
 };
 
 function mercX(lon){
-  lon = radians();
+  lon = radians(lon);
   let a = (128 / PI) * pow(2,zoom);
   let b = lon + PI;
   return a * b;
 };
 
 function mercY(lat){
- lat = radians();
+ lat = radians(lat);
  let a = (128 / PI) * pow(2,zoom); 
  let b = tan(PI/4 + lat/2);
  let c = PI - log(b);
